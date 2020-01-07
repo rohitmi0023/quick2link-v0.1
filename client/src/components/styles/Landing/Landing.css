@@ -1,0 +1,53 @@
+.marquee {
+	width: 100%;
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	box-sizing: border-box;
+	font-family: 'Inconsolata', monospace;
+}
+
+.marquee span {
+	display: inline-block;
+	padding-left: 100%;
+	/* show the marquee just outside the paragraph */
+	animation: marquee 8s linear infinite;
+}
+
+.marquee span:hover {
+	animation-play-state: paused;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
+
+.MyPhoto {
+	border-radius: 60%;
+	/* position: relative; */
+	float: right;
+	min-width: 83px;
+	max-width: 18%;
+	max-height: 11%;
+}
+
+@font-face {
+	font-family: 'Urban Jungle';
+	src: url('./urban_jungle_font/UrbanJungleDEMO.otf');
+}
+
+@media only screen and (min-width: 700px) {
+	.textforlarge {
+		font-size: 25px;
+	}
+}
+
+.developer {
+	border: 2px solid white;
+	padding: 2%;
+}

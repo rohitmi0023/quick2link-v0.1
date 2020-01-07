@@ -1,0 +1,53 @@
+.sportsForm {
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid darkgrey;
+}
+.heading {
+    padding: 5px 0px;
+    text-align: center;
+}
+.sportsListLink {
+    padding: 0px 30px 10px 30px;
+}
+
+.sportsListWord {
+    font-size: 58px !important;
+    text-align: center;
+    padding: 0px 60px 0px 60px;
+    font-family: "Urban Jungle";
+}
+@media only screen and (min-width: 835px) {
+    .sportsListClass {
+        width: 275px;
+        display: inline-flex !important;
+        text-align: center;
+        min-height: 110px;
+        padding: 0px 7px 15px 7px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 835px) {
+    .sportsListClass {
+        width: 230px;
+        display: inline-flex !important;
+        text-align: center;
+        min-height: 110px;
+        padding: 0px 7px 15px 7px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .sportsListClass {
+        width: 160px;
+        display: inline-flex !important;
+        text-align: center;
+        height: 125px;
+        padding: 0px 7px 0px 7px;
+    }
+    .sportsListWord {
+        font-size: 50px !important;
+        text-align: center;
+        padding: 0px 60px 0px 60px;
+        font-family: "Urban Jungle";
+        width: 145px !important;
+    }
+}

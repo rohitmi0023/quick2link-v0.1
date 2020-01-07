@@ -1,0 +1,36 @@
+.linkItems {
+    display: inline-block;
+    font-size: 21px;
+    padding-left: 5px;
+    padding-right: 25px;
+    color: white !important;
+}
+.linkItems:hover {
+    color: #cac8c3 !important;
+}
+
+.linkItems::after {
+    content: "";
+    display: block;
+    width: 0%;
+    max-width: 100%;
+    height: 2px;
+    background: blue !important;
+    transition: width 0.3s;
+}
+
+.linkItems:hover::after {
+    width: 100%;
+    max-width: 100%;
+    transition: width 0.3s;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 770px) {
+    .linkItems::after {
+        max-width: 100px;
+    }
+    .linkItems:hover::after {
+        max-width: 100px;
+    }
+}

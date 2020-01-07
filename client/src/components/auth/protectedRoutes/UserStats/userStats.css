@@ -1,0 +1,7 @@
+.dataInfoListClass {
+    max-width: 250px;
+    display: inline-flex !important;
+    padding: 0px 0px 15px 20px;
+    text-align: center;
+    min-height: 135px;
+}

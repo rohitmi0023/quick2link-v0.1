@@ -1,0 +1,24 @@
+.linkItem {
+    display: inline-block;
+    font-size: 21px;
+    color: white !important;
+}
+.linkItem:hover {
+    color: #cac8c3 !important;
+}
+
+.linkItem::after {
+    content: "";
+    display: block;
+    width: 0%;
+    max-width: 100px;
+    height: 2px;
+    background: blue !important;
+    transition: width 0.3s;
+}
+
+.linkItem:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+    font-weight: 900;
+}

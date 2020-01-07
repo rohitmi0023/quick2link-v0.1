@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://rohitmi0023:GjREd7H6jnQzdTnU@quick2link-csm9o.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "itsnotsecret"
+}
